@@ -11,8 +11,6 @@ const Header = (props) => {
   );
 };
 
-export default Header;
-
 const styles = {
   textStyle: {
     fontSize: 20
@@ -30,3 +28,5 @@ const styles = {
     position: 'relative',
   }
 };
+
+export { Header };
